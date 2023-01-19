@@ -1,11 +1,14 @@
 # reverse-string-technical-interview
 
+This repository contains 5 different ways to reverse a string in Python, along with unit tests and performance evaluations for each method.
+
 ## Methods:
 
 1. Using Slicing: The time complexity of this method is O(n).
 2. Using Join and Reversed: The time complexity of this method is O(n).
 3. Using For Loop: The time complexity of this method is O(n).
 4. Using Recursion: The time complexity of this method is O(n).
+5. Using While Loop: The time complexity of this method is O(n).
 
 ## Requirements:
 
