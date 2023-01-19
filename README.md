@@ -4,6 +4,7 @@
 
 1. Using Slicing: The time complexity of this method is O(n).
 2. Using Join and Reversed: The time complexity of this method is O(n).
+3. Using For Loop: The time complexity of this method is O(n).
 
 ## Requirements:
 

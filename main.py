@@ -1,12 +1,13 @@
 import timeit
 from modules.slicing import ReverseStringUsingSlicing
 from modules.join_reversed import ReverseStringUsingJoinReversed
+from modules.for_loop import ReverseStringUsingForLoop
 
 
 user_string = input("Enter a string: ")
 
 reverse_string_methods = [
-    ReverseStringUsingSlicing, ReverseStringUsingJoinReversed]
+    ReverseStringUsingSlicing, ReverseStringUsingJoinReversed, ReverseStringUsingForLoop]
 
 for method in reverse_string_methods:
     instance = method(user_string)
